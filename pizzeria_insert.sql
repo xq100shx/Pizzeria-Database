@@ -1,6 +1,3 @@
-@C:\Users\krzys\Desktop\studia\Sem_III\Bazy_danych\projektG\skrypty\pizzeria_drop.ddl;
-@C:\Users\krzys\Desktop\studia\Sem_III\Bazy_danych\projektG\skrypty\pizzeria_create.ddl;
-
 insert into KLIENT 
 	(klient_ID,klient_nazwisko,klient_imie,klient_adres,
 	 klient_miasto,klient_kod_adresowy,klient_nr_telefonu)
