@@ -125,4 +125,5 @@ Compare output with following results:
 ![check](https://github.com/xq100shx/Pizzeria-Database/assets/135518459/59ea1f2f-7b4c-411b-b1da-ba6355873ee6)
 
 If the results match, it means that the database has been installed correctly.
+
 6. To delete the database you can use command from first step again.
