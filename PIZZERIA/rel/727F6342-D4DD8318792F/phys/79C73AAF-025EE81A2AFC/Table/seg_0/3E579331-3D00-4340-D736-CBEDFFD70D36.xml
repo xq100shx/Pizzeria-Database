@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="RACHUNEK" directorySegmentName="seg_0" id="3E579331-3D00-4340-D736-CBEDFFD70D36">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="rachunek_ID" id="79E091D1-1441-FAAB-68A5-032580A5C612">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rachunek_data" id="8D01FCB1-7063-7B6D-5486-9DCB5CD7758D">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="rachunek_wartosc" id="DA3E6027-E005-919B-13AF-5B8B4214EF1F">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="klient_ID" id="DEE4ACD7-6A13-FFCC-0326-C57E5671CB02">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="KLIENT_FK" id="896A0A4B-381E-A94E-9145-F6CF5619ABAF">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RACHUNEK_PK" id="2C164968-53A0-4E77-5F5D-EB2AC2C784CB">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

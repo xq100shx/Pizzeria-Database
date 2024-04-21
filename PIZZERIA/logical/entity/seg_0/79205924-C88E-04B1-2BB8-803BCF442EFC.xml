@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79205924-C88E-04B1-2BB8-803BCF442EFC" name="TYP">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 16:02:24 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="typ rozmiar" id="2C5B2FC9-810B-E1C2-F9CA-AD8A1ECD400C">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 16:02:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Mala - S - 32 cm srednicy
+
+Srednia - M - 39 cm srednicy
+
+Duza - L - 46 cm srednicy
+
+Mega - XL -  53 cm srednicy]]></commentInRDBMS>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<constraintName>CHK_ROZMIAR</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;L&apos;" description="Duza (srednica 46cm)"/>
+<valueDef value="&apos;M&apos;" description="Srednia(srednica 38cm)"/>
+<valueDef value="&apos;S&apos;" description="Mala (srednica 30cm)"/>
+<valueDef value="&apos;XL&apos;" description="Mega (srednica 54 cm)"/>
+</listOfValues>
+<defaultValue>&apos;S&apos;</defaultValue>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="typ rozmiar mnoznik" id="65517CBA-DFB2-7785-BCC2-698B556AF1CF">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 16:02:42 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13E68ED9-A935-0E0E-2BF4-53B04A29B82A" name="TYP PK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 16:02:41 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C5B2FC9-810B-E1C2-F9CA-AD8A1ECD400C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

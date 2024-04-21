@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D4EA5E1-A88C-327A-F8CF-629F1D9DCC2F" name="TYP">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>79205924-C88E-04B1-2BB8-803BCF442EFC</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="typ_rozmiar" id="B41C0D62-1DD6-F3B4-7EC9-7AF858B84C6B">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Mala - S - 32 cm srednicy
+
+Srednia - M - 39 cm srednicy
+
+Duza - L - 46 cm srednicy
+
+Mega - XL -  53 cm srednicy]]></commentInRDBMS>
+<generatorID>2C5B2FC9-810B-E1C2-F9CA-AD8A1ECD400C</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<constraintName>CHK_ROZMIAR</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;L&apos;" description="Duza (srednica 46cm)"/>
+<valueDef value="&apos;M&apos;" description="Srednia(srednica 38cm)"/>
+<valueDef value="&apos;S&apos;" description="Mala (srednica 30cm)"/>
+<valueDef value="&apos;XL&apos;" description="Mega (srednica 54 cm)"/>
+</listOfValues>
+<defaultValue>&apos;S&apos;</defaultValue>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="typ_rozmiar_mnoznik" id="6981C08A-016A-6579-0A92-B85831EA0743">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>65517CBA-DFB2-7785-BCC2-698B556AF1CF</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F01FC78B-0417-837B-DD4D-DEFD72547408" name="TYP_PK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>13E68ED9-A935-0E0E-2BF4-53B04A29B82A</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B41C0D62-1DD6-F3B4-7EC9-7AF858B84C6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

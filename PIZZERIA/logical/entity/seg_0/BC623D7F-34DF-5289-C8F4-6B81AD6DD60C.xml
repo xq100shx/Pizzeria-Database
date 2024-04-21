@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC623D7F-34DF-5289-C8F4-6B81AD6DD60C" name="PIZZA">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 15:26:35 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pizza ID" id="E3F02C6A-1A6D-9AED-5B46-F32102AF6A56">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 15:29:48 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pizza nazwa" id="7CF7AA3A-BB8E-8593-9547-564BE6AF1CD0">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 15:30:11 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pizza cena" id="74EDE0BB-1195-33A9-8364-E1C1AAFDDEB8">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 16:04:41 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BF06D91-411D-0122-6AA6-87828E7A73A7" name="MENU PK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 15:30:09 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E3F02C6A-1A6D-9AED-5B46-F32102AF6A56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

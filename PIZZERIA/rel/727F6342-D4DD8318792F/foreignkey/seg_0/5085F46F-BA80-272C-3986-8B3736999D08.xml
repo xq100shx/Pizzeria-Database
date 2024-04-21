@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5085F46F-BA80-272C-3986-8B3736999D08" containerWithKeyObject="5FDDC53B-BFE6-D200-B50B-115A8594F86A" localFKIndex="556D31AA-AD76-7258-6EF6-B56C6429AE12" name="DOSTAWCA_FK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>616A39D7-55FC-429C-35FA-89F5910F18DB</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<referredTableLongName>DOSTAWCA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C763C6B2-E505-957D-FC5A-5BBE938916C2</referredTableID>
+<keyObject>F032B806-4E54-FC12-D176-B754EAFA00E3</keyObject>
+<referredKeyID>F032B806-4E54-FC12-D176-B754EAFA00E3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dostawca_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

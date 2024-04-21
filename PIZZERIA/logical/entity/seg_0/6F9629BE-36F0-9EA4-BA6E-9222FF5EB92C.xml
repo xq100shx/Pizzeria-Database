@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6F9629BE-36F0-9EA4-BA6E-9222FF5EB92C" name="KLIENT">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 15:32:22 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="klient ID" id="83264403-AF75-21DC-938A-6110E22BC7EE">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 15:32:34 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klient nazwisko" id="A162F52F-C0C8-D87D-95FB-B8C54732E4BB">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 15:34:09 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klient imie" id="C93DADA9-06CC-7473-E9CD-7D8419725F37">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 15:32:58 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klient nr telefonu" id="3DC6AC2C-AE9D-BB34-8FAD-5FAF77E9072C">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-24 18:10:31 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klient adres" id="478B0888-0427-BC25-FBCF-9494B5B49DE4">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 15:34:52 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klient miasto" id="030864B6-6D1C-DA9D-DDD9-21C496ECAA73">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 15:36:40 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klient kod adresowy" id="B3F9B650-48F4-3EB8-02AE-2EEBF9E60F61">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 15:37:04 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E0F99C7-7EC1-34C1-FFCC-EA2B4DB283CF" name="KLIENT PK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 15:32:55 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83264403-AF75-21DC-938A-6110E22BC7EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

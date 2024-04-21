@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E579331-3D00-4340-D736-CBEDFFD70D36" name="RACHUNEK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>6839DF82-C9A0-788C-D199-D719858DFB57</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rachunek_ID" id="79E091D1-1441-FAAB-68A5-032580A5C612">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>75A1B648-1A46-5E8B-A0D2-7967752BECEA</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="klient_ID" id="DEE4ACD7-6A13-FFCC-0326-C57E5671CB02">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>DE7E07B1-8575-B3B7-128C-487937B8BF6C</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9258EB81-6072-BFFB-4DE2-260B6C93ED45" referredColumn="443C0BB0-9129-0D86-7A1A-BCB84A33F5C7"/>
+</associations>
+</Column>
+<Column name="rachunek_data" id="8D01FCB1-7063-7B6D-5486-9DCB5CD7758D">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>ED9B3F3D-087C-4D54-F0E4-E73B0E4E44F7</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<constraintName>DEFAULT_DATE</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rachunek_wartosc" id="DA3E6027-E005-919B-13AF-5B8B4214EF1F">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>F2FA1F7C-368D-4044-EF7A-46D59DC884EA</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C164968-53A0-4E77-5F5D-EB2AC2C784CB" name="RACHUNEK_PK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>328A0E02-C5C0-AA4E-0314-D82C6C69EB0E</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79E091D1-1441-FAAB-68A5-032580A5C612"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="896A0A4B-381E-A94E-9145-F6CF5619ABAF" name="KLIENT_FK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>9240E04F-83D3-6C87-1880-5EF38A1365F2</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEE4ACD7-6A13-FFCC-0326-C57E5671CB02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

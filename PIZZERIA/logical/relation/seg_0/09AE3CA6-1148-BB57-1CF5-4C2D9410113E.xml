@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="typ_zamowienie" directorySegmentName="seg_0" id="09AE3CA6-1148-BB57-1CF5-4C2D9410113E">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 16:18:15 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<sourcePk>13E68ED9-A935-0E0E-2BF4-53B04A29B82A</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>okresla...</nameOnSource>
+<nameOnTarget>...jest okreslane</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>79205924-C88E-04B1-2BB8-803BCF442EFC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3F7FFB56-13F2-66FE-5ACE-7D6EFD83B576</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

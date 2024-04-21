@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5745662-B53E-ECC0-04DC-289D4F324467" name="PIZZA">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>BC623D7F-34DF-5289-C8F4-6B81AD6DD60C</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pizza_ID" id="005EA1C2-2E46-4558-01E2-90A9B57F4FA8">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>E3F02C6A-1A6D-9AED-5B46-F32102AF6A56</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pizza_nazwa" id="2D491C74-25D6-42F2-4978-9FA0A8192CB1">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>7CF7AA3A-BB8E-8593-9547-564BE6AF1CD0</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pizza_cena" id="F2265B44-5A6E-D36D-888F-0AA8F6EBF471">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>74EDE0BB-1195-33A9-8364-E1C1AAFDDEB8</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15647FFF-1715-DC83-FB5D-14F63C0137D7" name="PIZZA_PK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>4BF06D91-411D-0122-6AA6-87828E7A73A7</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="005EA1C2-2E46-4558-01E2-90A9B57F4FA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

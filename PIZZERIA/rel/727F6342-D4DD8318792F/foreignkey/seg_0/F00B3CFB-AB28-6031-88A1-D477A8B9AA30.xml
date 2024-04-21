@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F00B3CFB-AB28-6031-88A1-D477A8B9AA30" containerWithKeyObject="5FDDC53B-BFE6-D200-B50B-115A8594F86A" localFKIndex="0C6BE859-C72F-941E-2C1A-FBB301CACF8A" name="TYP_FK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>09AE3CA6-1148-BB57-1CF5-4C2D9410113E</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<referredTableLongName>TYP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6D4EA5E1-A88C-327A-F8CF-629F1D9DCC2F</referredTableID>
+<keyObject>F01FC78B-0417-837B-DD4D-DEFD72547408</keyObject>
+<referredKeyID>F01FC78B-0417-837B-DD4D-DEFD72547408</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>typ_rozmiar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

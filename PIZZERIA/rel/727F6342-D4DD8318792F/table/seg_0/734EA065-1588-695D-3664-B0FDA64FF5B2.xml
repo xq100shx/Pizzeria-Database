@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="734EA065-1588-695D-3664-B0FDA64FF5B2" name="PRZEPIS">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<ordsAlias>pizza_skladnik</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="przepis_ID" id="27456314-0E3C-6410-839D-72F4CE1055DB">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>F65517E3-C719-6FCF-1403-8CF6821A0FD7</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="pizza_ID" id="F56B7563-CA90-8613-4604-9DF8B3007024">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9A389D7-30C9-A067-A8B5-91E73F866B92" referredColumn="005EA1C2-2E46-4558-01E2-90A9B57F4FA8"/>
+</associations>
+</Column>
+<Column name="skladnik_ID" id="EB29D984-A181-A9E6-5E2A-4D313351E253">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A898F163-AD61-8B0D-C79C-E031AE548F65" referredColumn="C92BDC6A-6707-3C88-8A8D-BAB7A8F77614"/>
+</associations>
+</Column>
+<Column name="przepis_ilosc_skladnika" id="F15DCEB6-2912-77CE-CE05-F9716811A313">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[ilosc podana w gramach]]></commentInRDBMS>
+<generatorID>DD11EECD-A115-21F7-A677-E21D9BF1C837</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D233FAD8-18A8-B25B-B1B2-45F629A450ED" name="pizza_skladnik_PK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27456314-0E3C-6410-839D-72F4CE1055DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DEF8460-7C35-3547-482C-9C63F6D602C3" name="PIZZA_FK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>FCEA6F0D-61A0-A6B7-E58C-1233E7FA7B97</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F56B7563-CA90-8613-4604-9DF8B3007024"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3866A9C-3924-4788-3F09-D82A111142B8" name="SKLADNIK_FK">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<generatorID>FCEA6F0D-61A0-A6B7-E58C-1233E7FA7B97</generatorID>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB29D984-A181-A9E6-5E2A-4D313351E253"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

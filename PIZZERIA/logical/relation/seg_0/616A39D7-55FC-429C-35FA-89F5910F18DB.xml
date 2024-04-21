@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dostawca_rachunek" directorySegmentName="seg_0" id="616A39D7-55FC-429C-35FA-89F5910F18DB">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 16:09:58 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<sourcePk>0B3611BC-E6B7-E988-1C43-6FDFCDF67C32</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>dostarcza....</nameOnSource>
+<nameOnTarget>...jest dostarczane</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92DD12DD-DF6D-3C5B-3E4E-4F17DA5325D2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3F7FFB56-13F2-66FE-5ACE-7D6EFD83B576</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

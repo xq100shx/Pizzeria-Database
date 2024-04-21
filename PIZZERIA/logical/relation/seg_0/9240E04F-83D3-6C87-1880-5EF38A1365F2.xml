@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="klient_rachunek" directorySegmentName="seg_0" id="9240E04F-83D3-6C87-1880-5EF38A1365F2">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 16:39:04 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<sourcePk>7E0F99C7-7EC1-34C1-FFCC-EA2B4DB283CF</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>otrzymuje...</nameOnSource>
+<nameOnTarget>..ma wystawiany</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6F9629BE-36F0-9EA4-BA6E-9222FF5EB92C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6839DF82-C9A0-788C-D199-D719858DFB57</targetEntity>
+<transferable>true</transferable>
+</Relation>

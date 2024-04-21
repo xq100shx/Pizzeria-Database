@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pizza_skladnik" directorySegmentName="seg_0" id="FCEA6F0D-61A0-A6B7-E58C-1233E7FA7B97">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 16:14:27 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>zrobiona z....</nameOnSource>
+<nameOnTarget>zawiera sie w...</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BC623D7F-34DF-5289-C8F4-6B81AD6DD60C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>348946C2-7BA3-B80B-6C9F-F43215853721</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="przepis ID" id="F65517E3-C719-6FCF-1403-8CF6821A0FD7">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 17:22:05 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+</attribute>
+<attribute name="przepis ilosc skladnika" id="DD11EECD-A115-21F7-A677-E21D9BF1C837">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-21 17:22:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[ilosc podana w gramach]]></commentInRDBMS>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<engineerTo>
+<item key="727F6342-2362-B591-C685-D4DD8318792F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

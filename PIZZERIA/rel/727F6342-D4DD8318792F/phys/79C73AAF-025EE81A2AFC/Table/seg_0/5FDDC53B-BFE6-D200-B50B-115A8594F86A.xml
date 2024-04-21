@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ZAMOWIENIE" directorySegmentName="seg_0" id="5FDDC53B-BFE6-D200-B50B-115A8594F86A">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="typ_rozmiar" id="05CF3DEA-1B43-38E4-D876-66C6091A6DB0">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="zamowienie_ID" id="0B942205-D410-A0C7-7C71-0D153A0422AF">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pizza_ID" id="17922C2A-ED4B-CC43-5B00-372E882C9E22">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="zamowienie_ilosc" id="26E0D883-A27E-9BE9-E1A0-DC0F8DC85D2A">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="dostawca_ID" id="90334A5C-E520-79FF-773C-781E34FD1245">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rachunek_ID" id="E701D086-3249-6E12-07B6-1E1F91056206">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TYP_FK" id="0C6BE859-C72F-941E-2C1A-FBB301CACF8A">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DOSTAWCA_FK" id="556D31AA-AD76-7258-6EF6-B56C6429AE12">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PIZZA_FKv2" id="852BC162-C4A7-4505-D6EF-BA2DE5BF0817">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RACHUNEK_FK" id="F0FFA0F4-CD64-6749-3BD2-374478A4EE42">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ZAMOWIENIE_PK" id="F4DD6FC5-54B5-548B-467B-970DB95442C3">
+<createdBy>krzys</createdBy>
+<createdTime>2024-01-25 23:36:25 UTC</createdTime>
+<ownerDesignName>PIZZERIA</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
