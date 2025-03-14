@@ -126,4 +126,4 @@ Compare output with following results:
 
 If the results match, it means that the database has been installed correctly.
 
-6. To delete the database you can use command from first step again.
+6. To delete the database you can use command from second step again.
